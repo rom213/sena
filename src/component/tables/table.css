@@ -1,0 +1,20 @@
+
+.conTable{
+    border-top: 1px solid rgb(87, 81, 81);
+    border-bottom: 1px solid rgb(87, 81, 81);
+    border-left: 1px solid rgb(87, 81, 81) ;
+    border-right: 1px solid rgb(87, 81, 81);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgb(113, 102, 102);
+    position: absolute;
+    top: 200px;
+    background-color: aqua;
+}
+
+.tr{
+    border-top: 1px solid rgb(87, 81, 81);
+    border-bottom: 1px solid rgb(87, 81, 81);
+    border-left: 1px solid rgb(87, 81, 81) ;
+    border-right: 1px solid rgb(87, 81, 81);
+}
