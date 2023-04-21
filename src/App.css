@@ -29,6 +29,7 @@ body{
     position: absolute;
     right: 20px;
     top: 320px;
+    animation: move-up1 1s ease-out forwards;
 }
 .contenRes:hover{
     transform: scale(1.02);
@@ -86,9 +87,10 @@ h1{
 .img2{
     position: absolute;
     top: 190px;
-    right: 30px;
+    left: 30px;
     height: 400px;
     box-shadow: 2px 2px 2px 1px rgb(113, 102, 102);
+    animation: move-up 1s ease-out forwards;
 }
 
 .btn{
@@ -101,4 +103,13 @@ h1{
     color: white;
     cursor: pointer;
     animation: all 1s;
+}
+
+@keyframes move-up1{
+    from{
+        right: -200px;
+    }
+    to{
+        right: 30px;
+    }
 }
