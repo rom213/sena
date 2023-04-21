@@ -48,6 +48,7 @@ body{
 }
 .btn1:hover{
     transform: scale(1.09);
+    background-color: rgb(32, 38, 56);
 }
 
 .cont{
@@ -91,6 +92,10 @@ h1{
     height: 400px;
     box-shadow: 2px 2px 2px 1px rgb(113, 102, 102);
     animation: move-up 1s ease-out forwards;
+    cursor: pointer;
+}
+.img2:hover{
+    transform: scale(1.1);
 }
 
 .btn{
@@ -103,6 +108,10 @@ h1{
     color: white;
     cursor: pointer;
     animation: all 1s;
+}
+.btn:hover{
+    transform: scale(1.09);
+    background-color: rgb(43, 49, 67);
 }
 
 @keyframes move-up1{
